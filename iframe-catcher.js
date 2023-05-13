@@ -3,7 +3,7 @@ let pageUrl = window.location.href;
 let iframeUrl = '';
 
 // Example Page URL that has an iframe parameter
-pageUrl = "http://domain.com?iframe_url=https://example.com?product=shirt&color=blue&newuser&size=m"
+//pageUrl = "http://domain.com?iframe_url=https://example.com?product=shirt&color=blue&newuser&size=m"
 let urlParams = pageUrl.split("?");
 urlParams.shift();// Ignoring the left-side of the query String
 
